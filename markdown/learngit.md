@@ -35,7 +35,7 @@ $ git commit -m "写了一个文件"
 
 `git commit`成功后,`1 file change`:一个文件被改动
 
-`git add`一次只能提交一个文件,``git commit`一次可以提交很多文件,所以可以`add`很多,再`commit`
+`git add`一次只能提交一个文件,`git commit`一次可以提交很多文件,所以可以`add`很多,再`commit`
 
 
 
@@ -85,4 +85,3 @@ $ git remote rm gitlab     取消链接//gitlab是远程仓库在本地的名称
 ```
 $ git push -u origin master
 ```
-
