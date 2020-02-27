@@ -1,0 +1,6 @@
+﻿  我们来玩个游戏吧.c
+c:\users\lenovo\desktop\我爱学习\vs c\project1\project1\我们来玩个游戏吧.c(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+c:\users\lenovo\desktop\我爱学习\vs c\project1\project1\我们来玩个游戏吧.c(8): warning C4101: “b”: 未引用的局部变量
+c:\users\lenovo\desktop\我爱学习\vs c\project1\project1\我们来玩个游戏吧.c(8): warning C4101: “c”: 未引用的局部变量
+  Project1.vcxproj -> C:\Users\lenovo\Desktop\我爱学习\VS C\Project1\Debug\Project1.exe

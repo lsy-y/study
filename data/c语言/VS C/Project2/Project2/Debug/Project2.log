@@ -1,0 +1,4 @@
+﻿  hhhhhhhhhhhhhhhhhhhhhhhhh.c
+c:\users\lenovo\desktop\vs c\project2\project2\hhhhhhhhhhhhhhhhhhhhhhhhh.c(21): warning C4013: “printt”未定义；假设外部返回 int
+hhhhhhhhhhhhhhhhhhhhhhhhh.obj : error LNK2019: 无法解析的外部符号 _printt，该符号在函数 _main 中被引用
+C:\Users\lenovo\Desktop\VS C\Project2\Debug\Project2.exe : fatal error LNK1120: 1 个无法解析的外部命令

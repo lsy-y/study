@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>lsy</title>
+</head>   
+<body>
+<script>
+    function kaisa(){
+        var key=document.hao.offset.value;
+        var a=document.hao.ok.value;
+        var h="";
+        for(var i=0;i<a.length;i++)
+        {
+            var s=a.charCodeAt(i);
+            var s0=s;
+            s0=((s-97)+key*1)%26+97;
+            h+=String.fromCharCode(s0);
+            document.hao.enc.value=h;
+        }          
+    }
+</script>
+<form name="hao">
+    <p>偏移：</p>
+    <input type="text" name="offset" size=3><br>   
+    <p>原：</p>
+    <input type="text" name="ok" size=25><br>
+    <p>后：</p><input type="text" name="enc" size=25><br>
+    <input type="button" value="凯撒" onclick="kaisa()">
+</form>
+
+</body>
+</html>

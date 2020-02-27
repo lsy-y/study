@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>kaisa</title>
+</head>   
+<script>
+function kaisa() 
+{
+    var key=document.cipher.offset.value;
+    var plain = document.cipher.plain;
+    var ctext = "";
+    for( var i=0;i<plain.length; i++) 
+    {
+        var pcode=plain.value.charCodeAt(i);
+        var ccode=pcode;
+        if ( pcode >= 65 && pcode <= 90 )
+        {
+            ccode = ( ( pcode - 65 ) + key * 1 ) % 26 + 65;
+        }
+        if ( pcode >= 97 && pcode <= 122 ) 
+        {
+            ccode = ( ( pcode - 97 ) + key * 1 ) %26 + 97;
+        }
+        ctext += String.fromCharCode(ccode);
+    }
+
+    document.cipher.enc.value = ctext;
+}
+</script>
+<body>
+<form name="cipher">
+    <input type="text" name="offset" value=3></input><br>
+    <input type="text" name="plain"></input><br>
+    <input type="button" value="加密"onClick="kaisa()"></input><br> 
+    <input type="text"name="enc"</input>
+</form>
+</body>
+</html>
+

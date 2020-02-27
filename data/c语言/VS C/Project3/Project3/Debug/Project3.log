@@ -1,0 +1,7 @@
+﻿  我会做.c
+e:\我爱学习\vs c\project3\project3\我会做.c(9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+e:\我爱学习\vs c\project3\project3\我会做.c(35): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+e:\我爱学习\vs c\project3\project3\我会做.c(30): warning C4716: “f”: 必须返回一个值
+  Project3.vcxproj -> E:\我爱学习\VS C\Project3\Debug\Project3.exe
